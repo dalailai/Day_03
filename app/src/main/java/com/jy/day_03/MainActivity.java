@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
+                last = manager.findLastCompletelyVisibleItemPosition();
 
                 if (first <= last && newState == RecyclerView.SCROLL_STATE_IDLE) {
                     mVp.setCurrentItem(first++);
@@ -140,8 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 super.onScrolled(recyclerView, dx, dy);
 
                 first = manager.findFirstCompletelyVisibleItemPosition();
-                last = manager.findLastCompletelyVisibleItemPosition();
-
+                
                 mVp.setCurrentItem(first);
 
             }
