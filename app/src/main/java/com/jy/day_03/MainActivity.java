@@ -30,10 +30,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- *11111
- * 整合后的1
- * workspace
- *
+ *  桌面删除修改注释
  */
 public class MainActivity extends AppCompatActivity {
 
