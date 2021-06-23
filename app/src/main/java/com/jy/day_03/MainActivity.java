@@ -30,7 +30,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * 添加注释
+ *  桌面删除注释
  */
 public class MainActivity extends AppCompatActivity {
 
