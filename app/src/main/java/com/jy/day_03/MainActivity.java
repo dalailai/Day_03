@@ -107,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         isVpScroll = false;
 
         mVp.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
