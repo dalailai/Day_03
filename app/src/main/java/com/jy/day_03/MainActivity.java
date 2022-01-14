@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         isVpScroll = false;
 
         mVp.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
