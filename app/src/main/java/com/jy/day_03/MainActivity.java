@@ -57,12 +57,6 @@ public class MainActivity extends AppCompatActivity {
         initData();
 
 
-
-
-
-
-
-
     }
 
     private void initData() {
